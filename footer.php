@@ -1,6 +1,6 @@
 <?php
 /**
- * Theme index file
+ * Theme footer file
  *
  * @package cameronjonesweb-wcbne18
  */
@@ -9,4 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 
-render();
+wp_footer();
+?>
+</body>
+</html>

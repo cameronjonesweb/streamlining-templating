@@ -1,6 +1,6 @@
 <?php
 /**
- * Theme index file
+ * Theme archive pagination
  *
  * @package cameronjonesweb-wcbne18
  */
@@ -9,4 +9,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 
-render();
+theme_bootstrap_pagination();

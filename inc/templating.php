@@ -2,7 +2,7 @@
 /**
  * File responsible for templating
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -136,7 +136,7 @@ function theme_search_bar() {
 	if ( is_search() ) {
 		printf(
 			'<h1>%1$s</h1>',
-			esc_html__( 'Search', 'cameronjonesweb-wcbne18' )
+			esc_html__( 'Search', 'streamlining-templating' )
 		);
 		get_search_form();
 	}
@@ -151,10 +151,16 @@ function theme_404_content() {
 	}
 }
 
+/**
+ * Runs the loop_start hook on pages with an empty loop
+ */
 function theme_loop_no_results_start() {
 	do_action( 'loop_start' );
 }
 
+/**
+ * Runs the loop_end hook on pages with an empty loop
+ */
 function theme_loop_no_results_end() {
 	do_action( 'loop_end' );
 }

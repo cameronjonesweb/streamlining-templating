@@ -2,7 +2,7 @@
 /**
  * Main partial for single blog posts
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php
 		printf(
 			/* translators: 1: The date. 2: Author's name */
-			esc_html__( 'Posted %1$s by %2$s' ),
+			esc_html__( 'Posted %1$s by %2$s', 'streamlining-templating' ),
 			get_the_date(),
 			wp_kses_post( get_the_author_posts_link() )
 		);
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php the_content(); ?>
 	<p class="font-italic mb-0">
 		<?php
-		echo esc_html__( 'Posted in: ' );
+		echo esc_html__( 'Posted in: ', 'streamlining-templating' );
 		the_category( ', ' );
 		?>
 	</p>

@@ -2,7 +2,7 @@
 /**
  * Theme header bar
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

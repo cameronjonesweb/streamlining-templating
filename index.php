@@ -2,7 +2,7 @@
 /**
  * Theme index file
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

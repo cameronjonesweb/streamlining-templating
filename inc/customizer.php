@@ -2,7 +2,7 @@
 /**
  * Theme Customizer config
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -23,9 +23,9 @@ function theme_customize_sections( WP_Customize_Manager $wp_customize ) {
 	$wp_customize->add_section(
 		'theme-settings',
 		[
-			'title'       => __( 'Theme Settings', 'cameronjonesweb-wcbne18' ),
+			'title'       => __( 'Theme Settings', 'streamlining-templating' ),
 			'priority'    => 30,
-			'description' => __( 'Unique theme settings', 'cameronjonesweb-wcbne18' ),
+			'description' => __( 'Unique theme settings', 'streamlining-templating' ),
 		]
 	);
 }
@@ -60,9 +60,9 @@ function theme_customize_controls( WP_Customize_Manager $wp_customize ) {
 			'section' => 'theme-settings',
 			'type'    => 'select',
 			'choices' => [
-				'none'  => __( 'None', 'cameronjonesweb-wcbne18' ),
-				'left'  => __( 'Left', 'cameronjonesweb-wcbne18' ),
-				'right' => __( 'Right', 'cameronjonesweb-wcbne18' ),
+				'none'  => __( 'None', 'streamlining-templating' ),
+				'left'  => __( 'Left', 'streamlining-templating' ),
+				'right' => __( 'Right', 'streamlining-templating' ),
 			],
 		]
 	);

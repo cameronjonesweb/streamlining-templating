@@ -2,7 +2,7 @@
 /**
  * Main partial for blog post listings
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

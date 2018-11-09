@@ -2,7 +2,7 @@
 /**
  * Theme sidebar template file
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

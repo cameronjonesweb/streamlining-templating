@@ -2,7 +2,7 @@
 /**
  * Main functions file
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -65,7 +65,7 @@ function meta_tags() {
 function register_widget_areas() {
 	register_sidebar(
 		[
-			'name'          => __( 'Sidebar', 'cameronjonesweb-wcbne18' ),
+			'name'          => __( 'Sidebar', 'streamlining-templating' ),
 			'id'            => 'sidebar',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',

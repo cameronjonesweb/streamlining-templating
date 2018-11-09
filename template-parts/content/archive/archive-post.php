@@ -2,7 +2,7 @@
 /**
  * Main partial for blog post listings
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php
 		printf(
 			/* translators: 1: Opening anchor for the link to the post. 2: The date. 3: The closing anchor. 4: Author's name */
-			esc_html__( 'Posted %1$s%2$s%3$s by %4$s' ),
+			esc_html__( 'Posted %1$s%2$s%3$s by %4$s', 'streamlining-templating' ),
 			sprintf( '<a href="%1$s">', esc_url( get_the_permalink() ) ),
 			get_the_date(),
 			'</a>',
@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php the_excerpt(); ?>
 	<p class="font-italic mb-0">
 		<?php
-		echo esc_html__( 'Posted in: ' );
+		echo esc_html__( 'Posted in: ', 'streamlining-templating' );
 		the_category( ', ' );
 		?>
 	</p>

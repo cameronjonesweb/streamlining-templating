@@ -2,7 +2,7 @@
 /**
  * Main partial for archive listings
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

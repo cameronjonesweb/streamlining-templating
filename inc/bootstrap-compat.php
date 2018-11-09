@@ -2,7 +2,7 @@
 /**
  * Adds Bootstrap classes to things that need it
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

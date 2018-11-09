@@ -2,7 +2,7 @@
 /**
  * File responsible for widgets
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,7 +18,7 @@ function theme_register_widgets() {
 
 	register_sidebar(
 		[
-			'name'          => __( 'Sidebar', 'cameronjonesweb-wcbne18' ),
+			'name'          => __( 'Sidebar', 'streamlining-templating' ),
 			'id'            => 'sidebar',
 			'before_widget' => '<div class="widget">',
 			'after_widget'  => '</div>',

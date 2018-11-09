@@ -2,7 +2,7 @@
 /**
  * Theme footer
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -29,11 +29,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<?php
 					printf(
 						/* translators: 1.  */
-						esc_html__( 'Copyright &copy; %1$s.%5$sWebsite by %2$sCameron Jones%3$s for %4$sWordCamp Brisbane 2018%3$s' ),
+						esc_html__( 'Copyright &copy; %1$s.%4$sWebsite by %2$sCameron Jones%3$s', 'streamlining-templating' ),
 						esc_html( current_time( 'Y' ) ),
 						'<a href="https://cameronjonesweb.com.au" target="_blank" rel="noopener">',
 						'</a>',
-						'<a href="https://2018.brisbane.wordcamp.org" target="_blank" rel="noopener">',
 						'<br/>'
 					);
 					?>

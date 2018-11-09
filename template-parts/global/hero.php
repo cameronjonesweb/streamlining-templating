@@ -2,7 +2,7 @@
 /**
  * Theme jumbotron hero
  *
- * @package cameronjonesweb-wcbne18
+ * @package streamlining-templating
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
